@@ -1,13 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.kohsuke</groupId>
+    <artifactId>pom</artifactId>
+    <version>1</version>
+  </parent>
 
   <groupId>org.kohsuke.stapler</groupId>
   <artifactId>stapler-jetty</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
-  <name>stapler-jetty</name>
+  <name>Stapler Jetty Runner</name>
+  <description>Launches a stapler app with Jetty</description>
 
   <dependencies>
     <dependency>
@@ -27,4 +32,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <scm>
+    <connection>scm:git:git@github.com/stapler/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/stapler/${project.artifactId}.git</developerConnection>
+  </scm>
 </project>
