@@ -36,4 +36,11 @@
     <connection>scm:git:git@github.com/stapler/${project.artifactId}.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/stapler/${project.artifactId}.git</developerConnection>
   </scm>
+
+  <distributionManagement>
+    <site>
+      <id>github-pages</id>
+      <url>file:./target/site</url>
+    </site>
+  </distributionManagement>
 </project>
