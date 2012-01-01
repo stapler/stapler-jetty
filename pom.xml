@@ -8,7 +8,7 @@
 
   <groupId>org.kohsuke.stapler</groupId>
   <artifactId>stapler-jetty</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
 
   <name>Stapler Jetty Runner</name>
   <description>Launches a stapler app with Jetty</description>
